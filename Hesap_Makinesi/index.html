@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="result"></div>
+            <div class="btn_cont">
+                <button class="AC" onclick="result.innerText=''">AC</button>
+                <button class="DE" onclick="removeLastChar()">DE</button>
+                <button class="btn point">.</button>
+                <button class="btn division">/</button> 
+            </div>
+
+            <div class="btn_cont">
+                <button class="btn num seven">7</button>
+                <button class="btn num eight">8</button>
+                <button class="btn num nine">9</button>
+                <button class="btn multi">*</button> 
+            </div>
+
+            <div class="btn_cont">
+                <button class="btn num four">4</button>
+                <button class="btn num five">5</button>
+                <button class="btn num six">6</button>
+                <button class="btn sub">-</button> 
+            </div>
+
+            <div class="btn_cont">
+                <button class="btn num one">1</button>
+                <button class="btn num two">2</button>
+                <button class="btn num three">3</button>
+                <button class="btn plus">+</button> 
+            </div>
+
+            <div class="btn_cont">
+                <button class="btn dbl_zero">00</button>
+                <button class="btn zero">0</button>
+                <button class="btn equals">=</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
